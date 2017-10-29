@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "colleagues/calendar/input/helper/version"
+require "colleagues/calendar/command/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "colleagues-calendar-command"

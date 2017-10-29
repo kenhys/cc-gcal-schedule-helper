@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "colleagues/calendar/input/helper/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "colleagues-calendar-input-helper"
-  spec.version       = Colleagues::Calendar::Input::Helper::VERSION
+  spec.name          = "colleagues-calendar-command"
+  spec.version       = Colleagues::Calendar::Command::VERSION
   spec.authors       = ["Kentaro Hayashi"]
   spec.email         = ["hayashi@clear-code.com"]
 
   spec.summary       = %q{Input helper tool for Collegues calendar}
   spec.description   = %q{This tool helps to input schedule with specific format.}
-  spec.homepage      = "https://github.com/kenhys/colleagues-calendar-input-helper"
+  spec.homepage      = "https://github.com/kenhys/colleagues-calendar-command"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

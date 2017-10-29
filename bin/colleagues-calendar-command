@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "colleagues/calendar/command"
+
+collegues = Colleagues::Calendar::Command::CommandLine.new
+exit(collegues.run(ARGV))

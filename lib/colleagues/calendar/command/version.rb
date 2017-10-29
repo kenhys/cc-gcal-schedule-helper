@@ -1,9 +1,7 @@
 module Colleagues
   module Calendar
-    module Input
-      module Helper
-        VERSION = "0.1.0"
-      end
+    module Command
+      VERSION = "0.1.0"
     end
   end
 end
